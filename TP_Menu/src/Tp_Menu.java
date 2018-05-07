@@ -11,8 +11,6 @@ public class Tp_Menu {
 		System.out.println("\n\t**********Bienvenue au restaurant BURGER KING...!**********");
 		do {
 			System.out.println("\n\t Ci-dessous les différents menus disponible:\n");
-			// System.out.println("\n\t -Double Steak House\n\t -Double Cheese\n\t -Double
-			// Bacon\n");
 			for (String m : menu)
 				System.out.println(m);
 			System.out.println("\n\tVeillez choisir votre menu:");
@@ -33,7 +31,7 @@ public class Tp_Menu {
 				System.out.println("\tCe menu n'existe pas...!");
 
 			do {
-				System.out.println("\tVoulez commander un menu ? (O/N)");
+				System.out.println("\tVotre commande est en préparation...\nVoulez commander un menu ? (O/N)");
 				reponse = sc.nextLine().charAt(0);
 			} while (reponse != 'O' && reponse != 'N');
 
